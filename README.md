@@ -46,8 +46,10 @@ Assuming it  returns an id of 3
 Then at `/api/3` send a get request to retrieve -
 ```
 {
-  "id": 3,
-  "name": "Jhon Doe"
+  "data": {
+    "id": 3,
+    "name": "Jhon Doe"
+  }
 }
 ```
 
